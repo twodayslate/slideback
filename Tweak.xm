@@ -76,7 +76,6 @@ static NSString *peak() {
 
 %hook SBAppToAppWorkspaceTransaction
 -(id)_setupAnimationFrom:(id)afrom to:(id)ato {
-	%log;
 	if(peak() == ato) {
 		pop();
 	} else if(afrom == NULL || ato == NULL) {
