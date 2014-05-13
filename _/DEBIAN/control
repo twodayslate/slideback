@@ -1,0 +1,10 @@
+Package: com.twodayslate.slideback
+Name: slideback
+Depends: libactivator (>= 1.8.3), mobilesubstrate
+Architecture: iphoneos-arm
+Description: Like a back button. But better. AppSlide for iOS7
+Maintainer: twodayslate
+Author: twodayslate
+Section: Tweaks
+Version: 0.0.1-19
+Installed-Size: 72
