@@ -50,29 +50,29 @@ static NSString *peak() {
 }
 
 
-%hook SBAppSliderIconControllerDelegate
--(void)sliderIconScroller:(id)arg1 activate:(id)arg2 {
-	// Pretty sure this isn't needed but just in case...
-	%orig;
-	clear();
-}
-%end
+// %hook SBAppSliderIconControllerDelegate
+// -(void)sliderIconScroller:(id)arg1 activate:(id)arg2 {
+// 	// Pretty sure this isn't needed but just in case...
+// 	%orig;
+// 	clear();
+// }
+// %end
 
-%hook SBAppSliderIconController 
--(void)iconTapped:(id)arg1 {
-	// Pretty sure this isn't needed but just in case...
-	%orig;
-	clear();
-}
-%end
+// %hook SBAppSliderIconController 
+// -(void)iconTapped:(id)arg1 {
+// 	// Pretty sure this isn't needed but just in case...
+// 	%orig;
+// 	clear();
+// }
+// %end
 
-%hook SBUIController
--(void)activateURLFromBulletinList:(id)arg1 {
-	// Pretty sure this isn't needed but just in case...
-	%orig;
-	clear();
-}
-%end
+// %hook SBUIController
+// -(void)activateURLFromBulletinList:(id)arg1 {
+// 	// Pretty sure this isn't needed but just in case...
+// 	%orig;
+// 	clear();
+// }
+// %end
 
 %hook SBAppToAppWorkspaceTransaction
 -(id)_setupAnimationFrom:(id)afrom to:(id)ato {
