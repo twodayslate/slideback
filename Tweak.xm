@@ -113,6 +113,10 @@ static NSString *peak() {
 
 @end
 
+For when an application is selected in the app switcher: 
+// SBAppSliderController's -animateDismissalToDisplayIdentifier:(id)arg1 withCompletion:(id)arg2
+
+
 %ctor {
 	dlopen("/usr/lib/libactivator.dylib", RTLD_LAZY);
 
